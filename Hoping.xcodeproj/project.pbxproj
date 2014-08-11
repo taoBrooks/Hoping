@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885934F1198BEF99001416BA /* AccumulatorModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 885934F0198BEF99001416BA /* AccumulatorModule.cpp */; };
 		88799D7519866518002218D8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88799D7419866518002218D8 /* main.cpp */; };
 		88799D7719866518002218D8 /* Hoping.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 88799D7619866518002218D8 /* Hoping.1 */; };
+		88799D7F19890BEF002218D8 /* PromptModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88799D7E19890BEF002218D8 /* PromptModule.cpp */; };
+		88799D8319890CBC002218D8 /* ErrorHandlingModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88799D8119890CBC002218D8 /* ErrorHandlingModule.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +28,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		885934EF198BEEDE001416BA /* AccumulatorModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccumulatorModule.h; sourceTree = "<group>"; };
+		885934F0198BEF99001416BA /* AccumulatorModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AccumulatorModule.cpp; sourceTree = "<group>"; };
 		88799D7119866518002218D8 /* Hoping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hoping; sourceTree = BUILT_PRODUCTS_DIR; };
 		88799D7419866518002218D8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		88799D7619866518002218D8 /* Hoping.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hoping.1; sourceTree = "<group>"; };
+		88799D7D19890B8B002218D8 /* PromptModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromptModule.h; sourceTree = "<group>"; };
+		88799D7E19890BEF002218D8 /* PromptModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PromptModule.cpp; sourceTree = "<group>"; };
+		88799D8119890CBC002218D8 /* ErrorHandlingModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ErrorHandlingModule.cpp; sourceTree = "<group>"; };
+		88799D8219890CBC002218D8 /* ErrorHandlingModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHandlingModule.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 			children = (
 				88799D7419866518002218D8 /* main.cpp */,
 				88799D7619866518002218D8 /* Hoping.1 */,
+				88799D7D19890B8B002218D8 /* PromptModule.h */,
+				88799D7E19890BEF002218D8 /* PromptModule.cpp */,
+				88799D8119890CBC002218D8 /* ErrorHandlingModule.cpp */,
+				88799D8219890CBC002218D8 /* ErrorHandlingModule.h */,
+				885934EF198BEEDE001416BA /* AccumulatorModule.h */,
+				885934F0198BEF99001416BA /* AccumulatorModule.cpp */,
 			);
 			path = Hoping;
 			sourceTree = "<group>";
@@ -117,7 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885934F1198BEF99001416BA /* AccumulatorModule.cpp in Sources */,
+				88799D8319890CBC002218D8 /* ErrorHandlingModule.cpp in Sources */,
 				88799D7519866518002218D8 /* main.cpp in Sources */,
+				88799D7F19890BEF002218D8 /* PromptModule.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +245,7 @@
 				88799D7C19866518002218D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
